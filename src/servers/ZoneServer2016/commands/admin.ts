@@ -111,7 +111,7 @@ const admin: any = {
     server.sendAlertToAll(args.join(" "));
   },
   remover: function (server: ZoneServer2016, client: Client, args: any[]) {
-    server.giveKitItems(client);
+    server.giveRemoverItems(client);
   },
   players: function (server: ZoneServer2016, client: Client, args: any[]) {
     server.sendChatText(

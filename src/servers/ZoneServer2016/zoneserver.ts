@@ -4780,7 +4780,7 @@ export class ZoneServer2016 extends EventEmitter {
     this.lootContainerItem(client, this.generateItem(Items.KEVLAR_DEFAULT), 1, sendPacket);
   }
 
-  giveKitItems(client: Client) {
+  giveRemoverItems(client: Client) {
     this.lootItem(client, this.generateItem(1776, 1));
 	this.lootItem(client, this.generateItem(1428, 100));
   }

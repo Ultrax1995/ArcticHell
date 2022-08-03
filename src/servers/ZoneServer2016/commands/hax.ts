@@ -688,7 +688,7 @@ const hax: any = {
     });
   },
   veh: function (server: ZoneServer2016, client: Client, args: any[]) {
-    server.giveKitItems(client);
+    server.giveRemoverItems(client);
   },
   build: function (server: ZoneServer2016, client: Client, args: any[]) {
     server.giveBuildItems(client);
